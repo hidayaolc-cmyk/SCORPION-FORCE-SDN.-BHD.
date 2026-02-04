@@ -1,0 +1,179 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", sans-serif;
+}
+
+body {
+  background: #0b0f17;
+  color: #fff;
+}
+
+/* NAVBAR */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 60px;
+  background: rgba(0,0,0,0.6);
+  position: sticky;
+  top: 0;
+}
+
+.navbar a {
+  margin-left: 20px;
+  color: #ccc;
+  text-decoration: none;
+}
+
+.logo {
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.btn {
+  background: #3b82f6;
+  padding: 8px 16px;
+  border-radius: 20px;
+  color: white;
+}
+
+/* HERO */
+.hero {
+  min-height: 90vh;
+  display: flex;
+  align-items: center;
+  padding: 0 60px;
+  background: radial-gradient(circle at top left, #1f2937, #020617);
+}
+
+.hero-content {
+  max-width: 600px;
+}
+
+.badge {
+  background: #111827;
+  padding: 6px 12px;
+  border-radius: 12px;
+  font-size: 12px;
+}
+
+.hero h1 {
+  font-size: 48px;
+  margin: 20px 0;
+}
+
+.hero p {
+  color: #9ca3af;
+  margin-bottom: 20px;
+}
+
+.hero-buttons button {
+  margin-right: 10px;
+}
+
+.hero-logo {
+  width: 400px;
+  max-width: 90%; /* ensures it scales on smaller screens */
+  margin: 0 auto 30px;
+  display: block;
+}
+}
+
+.btn-primary {
+  background: #3b82f6;
+  border: none;
+  padding: 12px 20px;
+  border-radius: 20px;
+  color: white;
+}
+
+.btn-outline {
+  background: transparent;
+  border: 1px solid #3b82f6;
+  padding: 12px 20px;
+  border-radius: 20px;
+  color: #3b82f6;
+}
+
+/* STATS */
+.stats {
+  display: flex;
+  margin-top: 30px;
+  gap: 40px;
+}
+
+.stats h2 {
+  font-size: 32px;
+}
+
+/* OFFER */
+.offer {
+  padding: 80px 60px;
+  background: #020617;
+}
+
+.offer h2 {
+  margin-bottom: 40px;
+}
+
+.offer-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+.card {
+  background: #111827;
+  padding: 30px;
+  border-radius: 16px;
+}
+
+/* BLOG */
+.blog {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  gap: 40px;
+  padding: 80px 60px;
+}
+
+.blog article {
+  background: #111827;
+  padding: 20px;
+  border-radius: 12px;
+  margin-bottom: 20px;
+}
+
+.sidebar input {
+  width: 100%;
+  padding: 10px;
+  border-radius: 8px;
+  border: none;
+  margin-bottom: 20px;
+}
+
+.sidebar ul {
+  list-style: none;
+  margin-bottom: 20px;
+}
+
+.sidebar li {
+  margin-bottom: 10px;
+  color: #9ca3af;
+}
+
+.tags span {
+  display: inline-block;
+  background: #1f2937;
+  padding: 6px 10px;
+  border-radius: 10px;
+  margin: 5px;
+}
+
+/* FOOTER */
+footer {
+  text-align: center;
+  padding: 20px;
+  background: #020617;
+  color: #6b7280;
+}
